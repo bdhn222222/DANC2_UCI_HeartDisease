@@ -55,7 +55,7 @@ Quá trình bao gồm:
 ### **3.1. Khám Phá Dữ Liệu**  
 - Xem trước dữ liệu (`head`) để hiểu cấu trúc.  
 - Phân tích thống kê (`info()`, `describe()`).  
-- Kiểm tra giá trị thiếu và phân phối dữ liệu bằng biểu đồ (histogram, boxplot).  
+- Kiểm tra giá trị thiếu và phân phối dữ liệu bằng IQR.  
 
 ### **3.2. Tiền Xử Lý Dữ Liệu**  
 - **Xử lý dữ liệu thiếu**: Kiểm tra và thay thế giá trị bị thiếu.  
@@ -64,7 +64,8 @@ Quá trình bao gồm:
 - **Chia tập dữ liệu**:
   - Tập huấn luyện: Dùng để huấn luyện mô hình.  
   - Tập kiểm tra: Đánh giá hiệu suất mô hình.  
-
+- **Transform dữ liệu**: Bằng phương pháp Box-Cox
+  
 ### **3.3. Xây Dựng Mô Hình**  
 - Áp dụng thuật toán **K-Nearest Neighbors (KNN)** từ thư viện `sklearn`.  
 - Sử dụng **Grid Search** để chọn siêu tham số tối ưu.  
