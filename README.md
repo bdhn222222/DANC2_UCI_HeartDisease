@@ -96,5 +96,3 @@ Quá trình bao gồm:
 
 ### 🌟 **Liên Hệ**
 📧 Email: nguyen25102003n@gmail.com  
-
-Chúc bạn học tập và làm việc hiệu quả! 🚀
